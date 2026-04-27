@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — In-Tents Lighting</title>
+  <meta name="description" content="Browse the In-Tents Lighting event gallery — weddings, bridal showers, parties, and corporate events. Real events, real moments.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav nav--fixed" role="navigation" aria-label="Main navigation">
+    <a href="index.html" aria-label="In-Tents Lighting home">
+      <img class="nav-logo" src="Logo/In-Tents Lighting White on Black.png" alt="In-Tents Lighting">
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html"  class="nav-link">Home</a></li>
+      <li><a href="about.html"  class="nav-link">About</a></li>
+      <li class="nav-item">
+        <a href="events.html" class="nav-link">Events &#9662;</a>
+        <div class="nav-dropdown" role="menu">
+          <a href="weddings.html"       class="nav-dropdown-link" role="menuitem">Weddings</a>
+          <a href="bridal-showers.html" class="nav-dropdown-link" role="menuitem">Bridal Showers</a>
+          <a href="parties.html"        class="nav-dropdown-link" role="menuitem">Parties</a>
+          <a href="corporate.html"      class="nav-dropdown-link" role="menuitem">Corporate</a>
+        </div>
+      </li>
+      <li><a href="rentals.html"  class="nav-link">Rentals</a></li>
+      <li><a href="gallery.html"  class="nav-link">Gallery</a></li>
+      <li><a href="contact.html"  class="nav-link">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Book an Event</a>
+    <button class="nav-hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="nav-mobile" role="dialog" aria-label="Mobile navigation">
+    <a href="index.html"          class="nav-mobile-link">Home</a>
+    <a href="about.html"          class="nav-mobile-link">About</a>
+    <a href="events.html"         class="nav-mobile-link">Events</a>
+    <a href="weddings.html"       class="nav-mobile-sub">— Weddings</a>
+    <a href="bridal-showers.html" class="nav-mobile-sub">— Bridal Showers</a>
+    <a href="parties.html"        class="nav-mobile-sub">— Parties</a>
+    <a href="corporate.html"      class="nav-mobile-sub">— Corporate</a>
+    <a href="rentals.html"        class="nav-mobile-link">Rentals</a>
+    <a href="gallery.html"        class="nav-mobile-link">Gallery</a>
+    <a href="contact.html"        class="nav-mobile-link">Contact</a>
+  </div>
+
+  <main>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-label="Gallery hero">
+      <img class="page-hero-image" src="STOCK/junior-reis-oYBshTlocFE-unsplash.jpg" alt="Beautifully lit outdoor dinner event" loading="lazy">
+      <div class="page-hero-overlay"></div>
+      <div class="page-hero-content">
+        <p class="page-hero-label">Our Portfolio</p>
+        <h1 class="page-hero-title">Real Events, Real Moments</h1>
+        <p class="page-hero-sub">Every photo is from an event we designed, set up, and styled.</p>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section" aria-labelledby="gallery-heading">
+      <div class="container">
+        <header class="section-header section-header--center reveal">
+          <span class="eyebrow">Gallery</span>
+          <h2 id="gallery-heading">Browse Our Work</h2>
+          <p class="section-lead">Filter by event type or browse the full collection.</p>
+        </header>
+
+        <!-- FILTER TABS -->
+        <div class="gallery-filters" role="tablist" aria-label="Filter gallery by event type">
+          <button class="filter-btn active" data-filter="all"            role="tab" aria-selected="true">All Events</button>
+          <button class="filter-btn"        data-filter="wedding"        role="tab" aria-selected="false">Weddings</button>
+          <button class="filter-btn"        data-filter="bridal-shower"  role="tab" aria-selected="false">Bridal Showers</button>
+          <button class="filter-btn"        data-filter="party"          role="tab" aria-selected="false">Parties</button>
+          <button class="filter-btn"        data-filter="corporate"      role="tab" aria-selected="false">Corporate</button>
+        </div>
+      </div>
+
+      <!-- FILTERABLE GRID -->
+      <div class="gallery-grid container-wide" aria-label="Event photos">
+
+        <!-- WEDDINGS -->
+        <div class="gallery-grid-item" data-category="wedding">
+          <img src="STOCK/evelina-friman-hw_sKmjb0ns-unsplash.jpg" alt="White marquee wedding with chandelier" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="wedding">
+          <img src="STOCK/ariel-domenden-3Ki7QC0jVEg-unsplash.jpg" alt="Boho outdoor wedding table" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="wedding">
+          <img src="STOCK/marc-babin-aQWmCH_b3MU-unsplash.jpg" alt="Beach dinner with string lights" loading="lazy">
+        </div>
+
+        <!-- BRIDAL SHOWERS -->
+        <div class="gallery-grid-item" data-category="bridal-shower">
+          <img src="Bridal shower/Screenshot 2026-04-27 at 12.01.00.png" alt="Grazing board at bridal shower" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="bridal-shower">
+          <img src="Bridal shower/Screenshot 2026-04-27 at 12.01.31.png" alt="Guests at bridal shower with parasol" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="bridal-shower">
+          <img src="Bridal shower/Screenshot 2026-04-27 at 12.03.23.png" alt="Bridal shower group" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="bridal-shower">
+          <img src="Bridal shower/Screenshot 2026-04-27 at 12.04.17.png" alt="Bridal shower celebration" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="bridal-shower">
+          <img src="Bridal shower/Screenshot 2026-04-27 at 12.02.17.png" alt="Bridal shower table arrangement" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="bridal-shower">
+          <img src="Bridal shower/Screenshot 2026-04-27 at 12.03.58.png" alt="Bridal shower outdoor styling" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="bridal-shower">
+          <img src="Bridal shower/Screenshot 2026-04-27 at 12.04.33.png" alt="Bridal shower detail" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="bridal-shower">
+          <img src="Bridal shower/Screenshot 2026-04-27 at 12.05.54.png" alt="Bridal shower event highlight" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="bridal-shower">
+          <img src="Bridal shower/Screenshot 2026-04-27 at 12.02.50.png" alt="Bridal shower activity" loading="lazy">
+        </div>
+
+        <!-- PARTIES -->
+        <div class="gallery-grid-item" data-category="party">
+          <img src="STOCK/thyra-morton-dupe.jpeg" alt="Creative party activity" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="party">
+          <img src="STOCK/pavel-pjatakov-0ThHH_Kd2SU-unsplash.jpg" alt="Outdoor evening event" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="party">
+          <img src="STOCK/vitor-monthay-VKf00F_VahY-unsplash.jpg" alt="Intimate tent dinner" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="party">
+          <img src="STOCK/junior-reis-m2genDZ_pnM-unsplash.jpg" alt="String lights evening party" loading="lazy">
+        </div>
+
+        <!-- CORPORATE -->
+        <div class="gallery-grid-item" data-category="corporate">
+          <img src="STOCK/priscilla-du-preez-Q7wGvnbuwj0-unsplash.jpg" alt="Corporate group gathering" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="corporate">
+          <img src="STOCK/chuttersnap-aEnH4hJ_Mrs-unsplash.jpg" alt="Corporate long-table dinner" loading="lazy">
+        </div>
+        <div class="gallery-grid-item" data-category="corporate">
+          <img src="STOCK/junior-reis-oYBshTlocFE-unsplash.jpg" alt="Outdoor corporate event" loading="lazy">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BRIDAL SHOWER FULL LINK -->
+    <section class="section-sm section-subtle">
+      <div class="container" style="text-align:center;">
+        <span class="eyebrow reveal">Bridal Showers</span>
+        <h2 class="reveal" style="margin-bottom:var(--sp-4);">See the Full Bridal Shower Portfolio</h2>
+        <p class="reveal" style="color:var(--c-text-muted);font-weight:300;margin:0 auto var(--sp-8);max-width:50ch;line-height:1.8;">
+          We have 40 photos from a real bridal shower we created — explore the full event gallery.
+        </p>
+        <a href="bridal-showers.html" class="btn btn-outline reveal">View Full Gallery</a>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band" aria-labelledby="gallery-cta-heading">
+      <p class="cta-band-label">Inspired?</p>
+      <h2 class="cta-band-title" id="gallery-cta-heading">Let's Create Your Event</h2>
+      <p class="cta-band-sub">Reach out and we'll start planning something just as beautiful.</p>
+      <a href="contact.html" class="btn btn-gold">Start Planning</a>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img class="footer-logo" src="Logo/In-Tents Lighting White on Black.png" alt="In-Tents Lighting">
+          <p class="footer-tagline">Creating unforgettable moments through intentional design, beautiful structures, and warm ambient light.</p>
+        </div>
+        <div>
+          <p class="footer-col-heading">Navigate</p>
+          <ul class="footer-links">
+            <li><a href="index.html"   class="footer-link">Home</a></li>
+            <li><a href="about.html"   class="footer-link">About</a></li>
+            <li><a href="events.html"  class="footer-link">Events</a></li>
+            <li><a href="rentals.html" class="footer-link">Rentals</a></li>
+            <li><a href="gallery.html" class="footer-link">Gallery</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-col-heading">Events</p>
+          <ul class="footer-links">
+            <li><a href="weddings.html"       class="footer-link">Weddings</a></li>
+            <li><a href="bridal-showers.html" class="footer-link">Bridal Showers</a></li>
+            <li><a href="parties.html"        class="footer-link">Birthday Parties</a></li>
+            <li><a href="parties.html"        class="footer-link">Bachelor Parties</a></li>
+            <li><a href="corporate.html"      class="footer-link">Corporate Events</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-col-heading">Get in Touch</p>
+          <p class="footer-contact-line">hello@intentslighting.co.za</p>
+          <p class="footer-contact-line">+27 (0) 00 000 0000</p>
+          <p class="footer-contact-line">South Africa</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 In-Tents Lighting. All rights reserved.</p>
+        <p class="footer-copy">Crafted with intention.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-label="Image viewer" aria-modal="true">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous">&#8592;</button>
+    <img class="lightbox-img" src="" alt="">
+    <button class="lightbox-next" aria-label="Next">&#8594;</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
